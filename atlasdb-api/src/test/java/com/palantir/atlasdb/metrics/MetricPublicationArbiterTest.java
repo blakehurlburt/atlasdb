@@ -18,12 +18,11 @@ package com.palantir.atlasdb.metrics;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
-import org.junit.Test;
-
 import com.google.common.collect.ImmutableList;
 import com.google.common.collect.ImmutableMap;
 import com.google.common.collect.Maps;
 import com.palantir.tritium.metrics.registry.MetricName;
+import org.junit.Test;
 
 public class MetricPublicationArbiterTest {
     private static final MetricName METRIC_NAME_1 = MetricName.builder()

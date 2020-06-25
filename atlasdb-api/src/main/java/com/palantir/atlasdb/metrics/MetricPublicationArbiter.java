@@ -16,13 +16,12 @@
 
 package com.palantir.atlasdb.metrics;
 
+import com.google.common.collect.ImmutableList;
+import com.palantir.tritium.metrics.registry.MetricName;
 import java.util.List;
 import java.util.Map;
 import java.util.Optional;
 import java.util.function.Predicate;
-
-import com.google.common.collect.ImmutableList;
-import com.palantir.tritium.metrics.registry.MetricName;
 
 /**
  * Indicates whether metrics should be published. If {@link #test(MetricName)} returns true, that means we think
